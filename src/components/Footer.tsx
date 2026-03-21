@@ -1,14 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
         <footer>
             <div className="footer-navigation">
-                <Link to="/about">About</Link>
-                <Link to="/services">Services</Link>
-                <Link to="/contact">Contact</Link>
-                <Link to="/privacy">Privacy Policy</Link>
+                <a href="/about">About</a>
+                <a href="/services">Services</a>
+                <a href="/contact">Contact</a>
+                <a href="/privacy">Privacy Policy</a>
             </div>
             <div className="social-links">
                 <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
