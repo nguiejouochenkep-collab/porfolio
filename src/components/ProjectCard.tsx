@@ -1,1 +1,28 @@
-import React, { useState } from 'react';\nimport Modal from 'react-modal';\nimport './ProjectCard.css';\n\nconst ProjectCard = ({ project }) => {\n    const [isModalOpen, setIsModalOpen] = useState(false);\n\n    const openModal = () => setIsModalOpen(true);\n    const closeModal = () => setIsModalOpen(false);\n\n    return (\n        <div className="project-card">\n            <h3>{project.name}</h3>\n            <button onClick={() => window.open(project.repositoryUrl, '_blank')}>Repository</button>\n            <button onClick={() => window.open(project.deployedUrl, '_blank')}>Deployed App</button>\n            <button onClick={openModal}>Details</button>\n            <Modal isOpen={isModalOpen} onRequestClose={closeModal}>\n                <h2>{project.name} Details</h2>\n                <p><strong>Context:</strong> {project.context}</p>\n                <p><strong>Role:</strong> {project.role}</p>\n                <p><strong>Result:</strong> {project.result}</p>\n                <button onClick={closeModal}>Close</button>\n            </Modal>\n        </div>\n    );\n};\n\nexport default ProjectCard;
+import React, { useState } from 'react';
+import Modal from 'react-modal';
+import './ProjectCard.css';
+
+const ProjectCard = ({ project }) => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => setIsModalOpen(true);
+  const closeModal = () => setIsModalOpen(false);
+
+  return (
+    <div className="project-card">
+      <h3>{project.name}</h3>
+      <button onClick={() => window.open(project.repositoryUrl, '_blank')}>Repository</button>
+      <button onClick={() => window.open(project.deployedUrl, '_blank')}>Deployed App</button>
+      <button onClick={openModal}>Details</button>
+      <Modal isOpen={isModalOpen} onRequestClose={closeModal}>
+        <h2>{project.name} Details</h2>
+        <p><strong>Context:</strong> {project.context}</p>
+        <p><strong>Role:</strong> {project.role}</p>
+        <p><strong>Result:</strong> {project.result}</p>
+        <button onClick={closeModal}>Close</button>
+      </Modal>
+    </div>
+  );
+};
+
+export default ProjectCard;
