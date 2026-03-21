@@ -1,1 +1,20 @@
-{\n  "name": "portfolio",\n  "version": "1.0.0",\n  "description": "A Next.js portfolio application",\n  "scripts": {\n    "dev": "next dev",\n    "build": "next build",\n    "start": "next start",\n    "export": "next export"\n  },\n  "dependencies": {\n    "next": "latest",\n    "react": "latest",\n    "react-dom": "latest"\n  },\n  "devDependencies": {\n    "eslint": "latest",\n    "eslint-config-next": "latest"\n  }\n}
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "A Next.js portfolio application",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "eslint": "latest",
+    "eslint-config-next": "latest"
+  }
+}
