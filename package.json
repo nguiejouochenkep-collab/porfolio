@@ -13,7 +13,8 @@
     "react": "latest",
     "react-dom": "latest",
     "tailwindcss": "latest",
-    "autoprefixer": "latest"
+    "autoprefixer": "latest",
+    "@tailwindcss/postcss": "latest"
   },
   "devDependencies": {
     "eslint": "latest",
