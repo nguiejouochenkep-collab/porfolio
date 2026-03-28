@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Hero: React.FC = () => {
+const Hero = () => {
   return (
     <section className="bg-white py-20 px-6">
       <div className="max-w-4xl mx-auto flex flex-col items-center text-center">
         
-        {/* Emplacement pour ta photo de profil */}
+        {/* Ta photo de profil */}
         <div className="w-40 h-40 mb-8">
           <img 
             src="/ma-photo.jpg" 
