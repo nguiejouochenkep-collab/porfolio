@@ -1,5 +1,5 @@
 import React from 'react';
-const header = () => {
+const Header = () => {
     return (
         <header>
             <nav>
