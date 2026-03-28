@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const projectCard = ({ project }) => {
+const ProjectCard = ({ project }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
