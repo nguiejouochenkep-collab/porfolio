@@ -1,12 +1,12 @@
 import React from 'react';
 
-const Skills: React.FC = () => {
-    // Tes vraies compétences d'étudiant en Génie Logiciel
+const Skills = () => {
+    // Tes vraies compétences d'étudiante en Génie Logiciel
     const technicalSkills = ['Java (Swing/Socket)', 'PHP / MySQL', 'HTML5 & CSS3', 'JavaScript', 'Réseaux & Télécoms', 'UML / Modélisation'];
     const softSkills = ['Travail en équipe', 'Résolution de problèmes', 'Adaptabilité', 'Gestion du temps'];
 
     return (
-        <section className="max-w-6xl mx-auto py-12 px-4">
+        <section id="skills" className="max-w-6xl mx-auto py-12 px-4 bg-white">
             <h2 className="text-3xl font-bold text-blue-700 mb-8 border-b-2 border-blue-200 pb-2">
                 Compétences Techniques
             </h2>
