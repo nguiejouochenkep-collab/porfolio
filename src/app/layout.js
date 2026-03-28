@@ -1,13 +1,11 @@
-import type { Metadata } from 'next';
-
 import './globals.css';
 
-export const metadata: Metadata = {
+export const metadata = {
   title: 'Mon Portfolio',
   description: 'Porfolio professionnel présentant mes projets et compétences',
 };
 
-export default function RootLayout({ children, }: { children: React.ReactNode; }) {
+export default function RootLayout({ children }) {
   return (
     <html lang="fr">
       <body>{children}</body>
