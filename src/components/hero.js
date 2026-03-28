@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Hero = () => {
+const hero = () => {
   return (
     <section className="bg-white py-20 px-6">
       <div className="max-w-4xl mx-auto flex flex-col items-center text-center">
