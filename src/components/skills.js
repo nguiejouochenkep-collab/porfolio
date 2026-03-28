@@ -1,6 +1,6 @@
 import React from 'react';
 
-const skills = () => {
+const Skills = () => {
     // Tes vraies compétences d'étudiante en Génie Logiciel
     const technicalSkills = ['Java (Swing/Socket)', 'PHP / MySQL', 'HTML5 & CSS3', 'JavaScript', 'Réseaux & Télécoms', 'UML / Modélisation'];
     const softSkills = ['Travail en équipe', 'Résolution de problèmes', 'Adaptabilité', 'Gestion du temps'];
